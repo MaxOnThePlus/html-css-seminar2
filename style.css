@@ -1,0 +1,61 @@
+.header {
+    background: linear-gradient(to top right, #ced2a0, #f8f8e2);
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+h1 {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.lorem {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+ 
+.product {
+    font-weight: 700;
+    color: #122b3d;
+}
+
+.price {
+    color: #023a08;
+}
+button {
+    appearance: none;
+    padding: 12px 26px;
+    border-radius: 20px;
+    border: 0;
+    background: linear-gradient(to top right, #293f6d, #5095a2);
+    cursor: pointer;
+    color: aliceblue;
+}
+
+button:focus {
+    background: linear-gradient(to top right, #5095a2, #293f6d);
+}
+button:hover {
+    outline: none;
+    box-shadow: 2px 2px 2px 2px rgba(90, 86, 86, 0.2);
+}
+h2 {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
